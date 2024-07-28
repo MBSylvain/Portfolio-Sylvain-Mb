@@ -8,8 +8,8 @@ body {
   margin: 0;
   font-family: Montserrat, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  background-color: #ffff;
-  color: #383E42;
+  background-color: #FFFFFF;
+  color: #383E42; /* Gris foncé pour un bon contraste sur fond blanc */
 }
 
 .Presentation {
@@ -19,8 +19,8 @@ body {
   height: auto;
   justify-content: center;
   padding-top: 100px;
-  background-color: #f9f2ff;
-  border-top: solid #eeeeee;
+  background-color: #ffff; /* Gris clair */
+  border-top: solid 1px #e0e0e0; /* Gris foncé */
 }
 
 .bio {
@@ -41,7 +41,7 @@ body {
 
 .brand {
   border-radius: 50%;
-  border: 3px solid #eeeeee;
+  border: 2px solid #383E42; /* Gris foncé */
 }
 
 .icone {
@@ -69,9 +69,9 @@ body {
   height: 70vh;
   justify-content: center;
   padding: 10px;
-  background-color: #ffff;
-  /** #f0e1ff;*/
-
+  background-color: #f9f9f9; /* Blanc */
+  
+  /** #f0e1ff; */
 }
 
 .icon {
@@ -82,8 +82,7 @@ body {
   width: 30%;
   height: 40vh;
   margin: 20px;
-  box-shadow: 2px 2px 2px 2px #f0e1ff;
-
+  box-shadow: 2px 2px 2px 2px #E0E0E0; /* Gris clair */
 }
 
 .material-symbols-outlined {
@@ -97,8 +96,7 @@ body {
   height: 70vh;
   justify-content: center;
   text-align: center;
-  background-color: #f9f2ff;
-
+  background-color: #fffff; /* Gris clair */
 }
 
 .languages {
@@ -120,25 +118,31 @@ body {
   width: 40%;
   margin: 10px;
   height: 20vh;
-  box-shadow: 2px 2px 2px -1px #b56aff;
-
+  box-shadow: 2px 2px 2px -1px #383E42; /* Gris foncé */
 }
-
 
 .iconeTech {
   width: 30%;
   height: 30%;
   margin: auto;
-
 }
 
 .contact {
   width: 100%;
   height: auto;
-  background-color: #ffffff;
-
+background-image: linear-gradient(to bottom, #ffff, #383E42); /* Dégradé du gris clair au gris foncé */
 }
 
-.btn{
-  background-color: #b56aff;
+.btn {
+  background-color: #383E42; /* Gris foncé pour les boutons */
+  color: #FFFFFF; /* Blanc pour le texte des boutons */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #E0E0E0; /* Gris clair pour les boutons au survol */
+  color: #383E42; /* Gris foncé pour le texte des boutons au survol */
 }
